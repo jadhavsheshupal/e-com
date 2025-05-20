@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.example.myapplication.allDummyFolder
 
 import dagger.Module
 import dagger.Provides
@@ -8,11 +8,11 @@ import javax.inject.Singleton
 
 @Module
 @InstallIn(SingletonComponent::class)
-class UserRepositoryModule {
+class NotificationServiceModule {
 
     @Provides
     @Singleton
-    fun getUserRepository(): UserRepository{
-        return FireBaseRepository()
+    fun getMessageService(): NotificationServices {
+        return MessageService()
     }
 }

@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.example.myapplication.allDummyFolder
 
 import android.util.Log
 import javax.inject.Inject

@@ -1,5 +1,6 @@
-package com.example.myapplication
+package com.example.myapplication.allDummyFolder
 
+import com.example.myapplication.allDummyFolder.MainActivity
 import dagger.Component
 import javax.inject.Singleton
 

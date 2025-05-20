@@ -1,11 +1,8 @@
-package com.example.myapplication
+package com.example.myapplication.allDummyFolder
 
 import android.content.Context
-import android.content.ContextParams
-import androidx.annotation.WorkerThread
 import androidx.work.Worker
 import androidx.work.WorkerParameters
-import java.util.concurrent.Executor
 
 class WorkManagerExample(context:Context,params: WorkerParameters): Worker(context, params) {
 

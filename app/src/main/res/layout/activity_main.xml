@@ -7,11 +7,11 @@
 
         <variable
             name="users"
-            type="com.example.myapplication.model.Users" />
+            type="com.example.myapplication.allDummyFolder.model.Users" />
 
         <variable
             name="userViewModel"
-            type="com.example.myapplication.viewModel.LoginViewModel" />
+            type="com.example.myapplication.allDummyFolder.model.viewModel.LoginViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -19,7 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="25dp"
-        tools:context=".MainActivity">
+        tools:context=".allDummyFolder.MainActivity">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/ctl_main"

@@ -1,9 +1,7 @@
-package com.example.myapplication.viewModel
+package com.example.myapplication.allDummyFolder.model.viewModel
 
-import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.myapplication.model.Users
 
 class LoginViewModel : ViewModel() {
 
